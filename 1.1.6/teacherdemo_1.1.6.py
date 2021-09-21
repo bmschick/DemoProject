@@ -109,7 +109,41 @@
 #21 Save version to Git
 '''Readability'''
 #22, #23 Add comments and whitespace, test
-#24 Save new version
+#24 Use Git to save new version
+# Be sure to add short description
+
+# #   a116_buggy_image.py
+# import turtle as trtl
+
+# spider = trtl.Turtle()
+
+# # create the spider body
+# spider.pensize(40)
+# spider.circle(20)
+
+# # configure the spider legs
+# num_legs = 6
+# leg_length = 70
+# leg_angle = 380 / num_legs
+# spider.pensize(5)
+
+# # draw legs
+# leg_counter = 0
+# while (leg_counter < num_legs):
+#   spider.goto(0,0)
+#   # print("DBG: z: ",leg_angle,", z*n: ",leg_angle*leg_counter)
+#   spider.setheading(leg_angle*leg_counter)
+#   spider.forward(leg_length)
+#   leg_counter = leg_counter + 1
+
+# spider.hideturtle()
+# wn = trtl.Screen()
+# wn.mainloop()
+
+'''Variable Values'''
+#25, #26, #27 - Make changes to the legs
+# placement, number, angle
+#28 Save Version to Git
 
 #   a116_buggy_image.py
 import turtle as trtl
@@ -121,15 +155,15 @@ spider.pensize(40)
 spider.circle(20)
 
 # configure the spider legs
-num_legs = 6
+num_legs = 8
 leg_length = 70
-leg_angle = 380 / num_legs
+leg_angle = 360 / num_legs
 spider.pensize(5)
 
 # draw legs
 leg_counter = 0
 while (leg_counter < num_legs):
-  spider.goto(0,0)
+  spider.goto(0,20)
   # print("DBG: z: ",leg_angle,", z*n: ",leg_angle*leg_counter)
   spider.setheading(leg_angle*leg_counter)
   spider.forward(leg_length)
