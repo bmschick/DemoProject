@@ -1,0 +1,30 @@
+'''Instructions'''
+
+#This is going to be a text file that we will be using for all of our answers for 1.1.5. All coding work will go into other files
+
+'''Robot Maze'''
+
+'''College Board: '''
+
+#1-4 Folloed instructions on Canvas to get 1.1.5 folder set-up properly
+
+# 5 
+#   a) What errors do you get when you run "maze1.py"?
+#
+#
+#   b)What did you do to fix those errors?
+#
+#
+
+
+#6
+#   a) program all of Maze 1 in "maze1.py"
+#
+#   b) program all of Maze 2 in "maze2.py"
+# 
+#   c) program all of Maze 3 in "maze3.py"
+
+# Discussion Prompt: Instead of elbow partner, share with the other group at your table and record the similarities and differnces here
+
+'''Conclusion'''
+#1 
