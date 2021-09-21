@@ -145,30 +145,111 @@
 # placement, number, angle
 #28 Save Version to Git
 
-#   a116_buggy_image.py
-import turtle as trtl
+# #   a116_buggy_image.py
+# import turtle as trtl
 
-spider = trtl.Turtle()
+# spider = trtl.Turtle()
 
-# create the spider body
-spider.pensize(40)
-spider.circle(20)
+# # create the spider body
+# spider.pensize(40)
+# spider.circle(20)
 
-# configure the spider legs
-num_legs = 8
-leg_length = 70
-leg_angle = 360 / num_legs
-spider.pensize(5)
+# # configure the spider legs
+# num_legs = 8
+# leg_length = 70
+# leg_angle = 360 / num_legs
+# spider.pensize(5)
 
-# draw legs
-leg_counter = 0
-while (leg_counter < num_legs):
-  spider.goto(0,20)
-  # print("DBG: z: ",leg_angle,", z*n: ",leg_angle*leg_counter)
-  spider.setheading(leg_angle*leg_counter)
-  spider.forward(leg_length)
-  leg_counter = leg_counter + 1
+# # draw legs
+# leg_counter = 0
+# while (leg_counter < num_legs):
+#   spider.goto(0,20)
+#   # print("DBG: z: ",leg_angle,", z*n: ",leg_angle*leg_counter)
+#   spider.setheading(leg_angle*leg_counter)
+#   spider.forward(leg_length)
+#   leg_counter = leg_counter + 1
 
-spider.hideturtle()
-wn = trtl.Screen()
-wn.mainloop()
+# spider.hideturtle()
+# wn = trtl.Screen()
+# wn.mainloop()
+
+'''Algorithms'''
+#29 4 legs on each side
+#30 2 new eyes
+#31 Save to Git
+
+'''It’s Your Turn'''
+#32, #33 Debug the Ladybug
+# document each bug fix with a comment
+#34 Save to Git
+
+# #   a116_ladybug.py
+# import turtle as trtl
+
+# # create ladybug head
+# ladybug = trtl.Turtle()
+# ladybug.pensize(40)
+# ladybug.circle(5)
+
+# # and body
+# ladybug.penup()
+# ladybug.goto(0, -55) 
+# ladybug.color("red")
+# ladybug.pendown()
+# ladybug.pensize(40)
+# ladybug.circle(20)
+# ladybug.setheading(270)
+# ladybug.color("black")
+# ladybug.penup()
+# ladybug.goto(0, 5)
+# ladybug.pensize(2)
+# ladybug.pendown()
+# ladybug.forward(75)
+
+# # config dots
+# # num_dots = 1
+# num_dots = 2
+# xpos = -20
+# ypos = -55
+# ladybug.pensize(10)
+
+# # draw two sets of dots
+# # while (num_dots <= 2 ):   # bug
+# while (num_dots > 0 ):
+#   ladybug.penup()
+#   ladybug.goto(xpos, ypos)
+#   ladybug.pendown()
+#   ladybug.circle(3)
+#   ladybug.penup()
+#   ladybug.goto(xpos + 30, ypos + 20)
+#   ladybug.pendown()
+#   # ladybug.circle(2)       #bug
+#   ladybug.circle(3)
+
+#   # position next dots
+#   # xpos = ypos + 25        # bug
+#   ypos = ypos + 25
+#   xpos = xpos + 5
+#   # num_dot = num_dots - 1  # bug
+#   num_dots = num_dots - 1
+
+# ladybug.hideturtle()
+
+# wn = trtl.Screen()
+# wn.mainloop()
+
+'''PLTW COMPUTER SCIENCE NOTEBOOK'''
+# Explain the bugs fixed in the Ladybug
+
+'''Bug Review'''
+# quizlet
+
+'''Advanced “Bugs”'''
+#35 Ladybug with legs
+#36 Experiment with arcs
+#37 Spider with arced legs
+#38 Spider head
+
+'''CONCLUSION'''
+#1 What do you think is the biggest benefit of using well-named variables?
+#2 What can a programmer do to reduce bugs in code?
