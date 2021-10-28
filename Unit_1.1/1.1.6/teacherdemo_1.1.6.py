@@ -249,6 +249,73 @@
 #36 Experiment with arcs
 #37 Spider with arced legs
 #38 Spider head
+#   a116_buggy_image.py
+
+import turtle as trtl
+spider = trtl.Turtle()
+
+
+# create the spider body
+# changed from fat pen draws circle to
+#   thin pen draws circle and fills -bms 9/24/2021
+spider.pensize(2)
+spider.penup()
+spider.goto(0,-20)
+spider.pendown()
+spider.fillcolor("black")
+spider.begin_fill()
+spider.circle(40)
+spider.end_fill()
+
+# create the spider head
+spider.penup()
+spider.goto(0,-35)
+spider.pendown()
+spider.begin_fill()
+spider.circle(10)
+spider.end_fill()
+
+
+# configure the spider legs
+# num_leg_pairs on each side from
+# leg_start_angle to leg_end_angle on right
+# mirrored on the left
+# segmented arc of leg_length radius
+# and leg_curve bend
+num_leg_pairs = 4
+leg_length = 150
+leg_curve = 60
+leg_segments = 3
+leg_start_angle = -60
+leg_end_angle = 30
+leg_angle = (leg_end_angle - leg_start_angle) / num_leg_pairs
+spider.pensize(5)
+
+
+# draw legs in pairs
+leg_counter = 0
+while (leg_counter < num_leg_pairs):
+
+  # draw right leg
+  spider.penup()
+  spider.goto(0,20)
+  spider.pendown()
+  spider.setheading(leg_start_angle+leg_angle*leg_counter)
+  spider.circle(leg_length,leg_curve,leg_segments)
+
+  # draw left leg
+  spider.penup()
+  spider.goto(0,20)
+  spider.pendown()
+  spider.setheading(180-leg_start_angle-leg_angle*leg_counter)
+  spider.circle(-leg_length,leg_curve,leg_segments)
+  leg_counter = leg_counter + 1
+
+
+spider.hideturtle()
+wn = trtl.Screen()
+wn.mainloop()
+
 
 '''CONCLUSION'''
 #1 What do you think is the biggest benefit of using well-named variables?

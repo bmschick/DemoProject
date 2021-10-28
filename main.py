@@ -40,16 +40,20 @@ print(secondClass.class_var)
 print("")
 
 class MyChild(MyClass):
-  def __init__(self):
-    #super("Horatio") #doesn't work
-    super().__init__("Horatio")
+  # def __init__(self):
+  #   #super("Horatio") #doesn't work
+  #   super().__init__("Horatio")
 
-  # def __init__(self, age ): #trying cotr overload
+  def __init__(self, age = 3 ): #trying cotr overload
   # python does not have method overloading, 
   # there is a way ... tricky ...
   #   self.age = age
-  pass
+    super().__init__("Nelson",5)
+    self.i_age = age
+    pass
 
 fourthClass = MyChild()
 print(fourthClass)
 print(fourthClass.instance_name)
+print(fourthClass.i_birthMonth)
+print(fourthClass.i_age)

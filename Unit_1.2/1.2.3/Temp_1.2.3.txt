@@ -1,0 +1,31 @@
+1.2.3 Apple Avalanche			       
+
+# 1 through 3 code set-up. 
+Screenshot of Quiz:
+
+Key Press
+Numbers 9-13 Did you struggle with any parts of this section or have any bugs/errors in your code? If so, what were they and how did you fix/overcome them? 
+
+Adding Randomness
+Numbers 14-16 Did you struggle with any parts of this section or have any bugs/errors in your code? If so, what were they and how did you fix/overcome them?
+
+Reviewing Lists
+Numbers 17-20 Did you struggle with any parts of this section or have any bugs/errors in your code? If so, what were they and how did you fix/overcome them?
+
+Key Press
+Numbers 21-24 Did you struggle with any parts of this section or have any bugs/errors in your code? If so, what were they and how did you fix/overcome them?
+  
+Final Submission:
+Insert a 60 second video showing your app in action and make sure I can see your code for how you handled your key presses in that video
+
+
+Conclusion
+  
+ 
+ 
+ 
+
+
+ 
+ 
+

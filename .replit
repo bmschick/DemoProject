@@ -2,31 +2,56 @@
 
 #main.py
 #run="python main.py"
-
+#run ="python pract2.py"
 
 # 1.1.1 main file
-#uncomment the "run=..." line to run the file, but make sure you have modified the file name first and commented out all other "run=..."'s
-#run="python 1.1.1/Brown_1.1.1.py"
+#run="python Unit_1.1/1.1.1/Brown_1.1.1.py"
 #run="python 1.1.1/Teacher_Answer_Key.py"
 
 # 1.1.2 main file
-#uncomment the "run=..." line to run the file, but make sure you have modified the file name first and commented out all other "run=..."'s
-#run="python 1.1.1/Brown_1.1.1.py"
-#run="python 1.1.2/Teacher_Demo_1.1.2.py"
+#run="python Unit_1.1/1.1.1/Brown_1.1.1.py"
+#run="python Unit_1.1/1.1.2/Teacher_Demo_1.1.2.py"
 
 # 1.1.3 main file
-#uncomment the "run=..." line to run the file, but make sure you have modified the file name first and commented out all other "run=..."'s
-#run="python 1.1.3/LastFirst_1.1.3.py"
-#run="python 1.1.3/TeacherKey.py"
+#run="python Unit_1.1/1.1.3/LastFirst_1.1.3.py"
+#run="python Unit_1.1/1.1.3/TeacherKey.py"
 
 # 1.1.4 main file
-#run = "python 1.1.4/TeacherDemo.py"
+#run = "python Unit_1.1/1.1.4/TeacherDemo.py"
 
 # 1.1.5 files
-#run = "python 1.1.5/answer_key.py"
-#run = "python 1.1.5/maze1.py"
+#run = "python Unit_1.1/1.1.5/answer_key.py"
+#run = "python Unit_1.1/1.1.5/maze1.py"
+#run = "cd 1.1.5; python maze1.py; cd ..;"
 
 # 1.1.6 files
-run = "python 1.1.6/teacherdemo_1.1.6.py"
+#run = "python Unit_1.1/1.1.6/teacherdemo_1.1.6.py"
+
+# 1.1.7 files
+#run = "python Unit_1.1/1.1.7/answerKey.py"
+
+# 1.1.8 files
+#run = "python Unit_1.1/1.1.8/LastFirst_LastFirst_1.1.8.py"
+#run = "python Unit_1.1/1.1.8/answerKey.py"
+#run = "python Unit_1.1/1.1.8/schick118.py"
+
+##############################################################
+# 1.2.1 main file
+#run="python Unit_1.2/1.2.1/LastFirst_LastFirst_1.2.1.py"
+#run="python Unit_1.2/1.2.1/1.2.1_Key.py"
+
+# 1.2.2 main file
+#run="python Unit_1.2/1.2.2/LastFirst_LastFirst_1.2.2.py"
+#run="python Unit_1.2/1.2.2/1.2.2_Key.py"
+run = "python Unit_1.2/1.2.2/Schick_122.py"
+
+# 1.2.3 main file
+#run="python Unit_1.2/1.2.3/LastFirst_LastFirst_Code_1.2.3.py"
+#run="python Unit_1.2/1.2.3/1.2.3_Key.py"
+
+# 1.2.4 main file
+#run = "python Unit_1.2/1.2.4/LastFirst_LastFirst_1.2.4.py"
+#run="python Unit_1.2/1.2.4/1.2.4_Key.py"
+
 
 language="python3"
